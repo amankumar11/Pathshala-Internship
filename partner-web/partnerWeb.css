@@ -64,16 +64,30 @@ h1{
     width: 1000px;
 }
 
+.academicdiv{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
 .Academic h1{
     background-color: #0680af;
     color: white;
     text-align: center;
-    margin-right: 600px;
-    margin-left: 600px;
+    /* padding-right: 100px; */
+    /* padding-left: 100px; */
+    margin-right: 500px;
+    margin-left: 500px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 50px;
 
+}
+
+@media only screen and (max-width: 1030px) {
+    .Academic h1{
+        margin-right:200px;
+        margin-left:200px;
+    }
 }
 
 .Academic p{
@@ -99,11 +113,21 @@ h1{
     text-align: center;
 }
 
+.studentbutton a{
+    font-weight: 500;
+    font-size: 25px;
+}
+
 .schoolbutton{
     display: flex; 
     align-items: center; 
     justify-content: center;
     text-align: center;   
+}
+
+.schoolbutton a{
+    font-weight: 500;
+    font-size: 25px;
 }
 
 .studentregister button{ 
@@ -134,6 +158,8 @@ h1{
 }
 
 .benefits h1{
+    font-size: 60px;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -177,6 +203,10 @@ h1{
     font-weight: 400;
     width: 600px;
     /* margin-bottom: 0; */
+}
+
+.colprofile a{
+    text-decoration: none;
 }
 
 .profilep1{

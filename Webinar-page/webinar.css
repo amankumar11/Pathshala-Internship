@@ -1,0 +1,87 @@
+body{
+    
+}
+
+#cardstoday{
+    display: none;
+}
+
+#cardstomorrow{
+    display: none;
+}
+
+#cardsweekend{
+    display: none;
+}
+
+.heading{
+    text-align: center;
+}
+
+.maintext h1{
+    font-size: 20px;
+}
+
+.buttons{
+    /* display: flex; */
+    align-items: center;
+}
+
+.buttons h1{
+}
+
+.time, .genre{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.time a, .genre a{
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.time button, .genre button{
+    color: black;
+    background-color: transparent;
+    border-width: 2px;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+    
+}
+
+
+
+.cardssection{
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    align-items: center;
+}
+
+.cardsdiv{
+    margin-left: 100px;
+    margin-right: 100px;
+    display:inline-flex;
+    position: relative;
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+    right: 0;left: 0;
+}
+
+.cardsdiv a{
+    text-decoration: none;
+}
+
+.card{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card img:hover{
+    opacity:;
+}
