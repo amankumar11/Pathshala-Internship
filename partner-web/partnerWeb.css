@@ -1,3 +1,4 @@
+
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     /* font-family: 'Karla', sans-serif; */
@@ -83,11 +84,26 @@ h1{
 
 }
 
+.studentregister .col img{
+    width: 500px;
+}
+
 @media only screen and (max-width: 1030px) {
     .Academic h1{
         margin-right:200px;
         margin-left:200px;
     }
+}
+
+@media only screen and (max-width: 1300px) {
+    .Academic h1{
+        margin-right:200px;
+        margin-left:200px;
+    }
+    .studentregister .col img{
+        width: 350px;
+    }
+
 }
 
 .Academic p{
@@ -236,4 +252,23 @@ h1{
 .colabout hr{
     color: black;
     margin-top: 0;
+}
+
+@media only screen and (max-width: 412px) {
+    html{
+        /* display:inline-block; */
+    }
+    *{
+        box-sizing: content-box;
+    }
+    .head{
+        width: 200px;
+        /* position: relative; */
+        /* text-align: center; */
+    }
+    .container .row .col img{
+        margin-left: 25px;
+        width: 300px;
+    }
+
 }

@@ -6,12 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./partnerWeb.css"/>
+    <link rel="stylesheet" href="./navbar.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
     <title>Partner Web</title>
 </head>
 <body>
+  <!-- Navbar -->
+  <div class="topnav" id="myTopnav">
+    <img src="images/logo.png" />
+    <div class="dropdown">
+      <button class="dropbtn"><a href="#" class="active">Home</a></button>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Browse
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Tutor</a>
+        <a href="#">Courses</a>
+        <a href="#">Live Tutor</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Pathshala Live
+      </button>
+      <div class="dropdown-content">
+        <a href="#">AcadeX</a>
+        <a href="#">Master Classes</a>
+        <a href="#">Webinars</a>
+        <a href="#">Virtual Camp</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Our Partners
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Foreign Language Olympiad</a>
+        <a href="#">Student's Competition</a>
+        <a href="#">Teacher's Competition</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn" id="signin">Sign In
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Teacher Login</a>
+        <a href="#">Student Login</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" style="font-size:15px;color:black;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+  <!-- main content  -->
     <div class="container">
         <div class="row">
           <div class="col head">
@@ -68,7 +115,7 @@
         <div class="container">
             <div class="row">
             <div class="col">
-                <img src="./3778874.jpg" width="500px">
+                <img src="./3778874.jpg" >
             </div>
             <div class="col studentbutton">
                 <button>
@@ -150,11 +197,22 @@
                 <a href="#">
                   <p class="profileviewall">View all +</p>
                 </a>
-                
             </div>
         </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
 </html>
