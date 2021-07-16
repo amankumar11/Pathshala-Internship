@@ -256,7 +256,6 @@ h1{
 
 @media only screen and (max-width: 412px) {
     html{
-        /* display:inline-block; */
         display: flex;
     }
     *{
@@ -264,15 +263,42 @@ h1{
         box-sizing: border-box;
         align-items: center!important;
     }
-    .head{
-        display:grid;
-        width: 800px;
-        
-        
+
+    .head h1{
+        text-align: center;
+        width: 600px;
+        margin-left: 50px;
     }
-    /* .container .row .col img{
-        margin-left: 25px;
-        width: 300px;
-    } */
+
+    .head p{
+        width: 700px;
+        margin-left: 2px;
+        text-align: center;
+    }
+    
+    .signup{
+        margin-left: 200px;
+    }
+
+    .container .col img{
+        width: 500px;
+        margin-left: 98px;
+    }
+
+    .academicdiv h1{
+        width: 400px;
+        margin-left: 80px;
+    }
+
+    .academicdiv p{
+        width: 400px;
+        margin-left: 80px;
+    }
+
+    .carousel1{
+        width: 600px;
+        margin-left: 70px;
+    }
+    
 
 }
