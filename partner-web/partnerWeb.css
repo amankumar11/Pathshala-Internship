@@ -257,18 +257,22 @@ h1{
 @media only screen and (max-width: 412px) {
     html{
         /* display:inline-block; */
+        display: flex;
     }
     *{
-        box-sizing: content-box;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center!important;
     }
     .head{
-        width: 200px;
-        /* position: relative; */
-        /* text-align: center; */
+        display:grid;
+        width: 800px;
+        
+        
     }
-    .container .row .col img{
+    /* .container .row .col img{
         margin-left: 25px;
         width: 300px;
-    }
+    } */
 
 }
