@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./navbar.css"/>
+</head>
+
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <img src="images/logo.png" />
+    <div class="dropdown">
+      <button class="dropbtn"><a href="#" class="active">Home</a></button>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Browse
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Tutor</a>
+        <a href="#">Courses</a>
+        <a href="#">Live Tutor</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Pathshala Live
+      </button>
+      <div class="dropdown-content">
+        <a href="#">AcadeX</a>
+        <a href="#">Master Classes</a>
+        <a href="#">Webinars</a>
+        <a href="#">Virtual Camp</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Our Partners
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Foreign Language Olympiad</a>
+        <a href="#">Student's Competition</a>
+        <a href="#">Teacher's Competition</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn" id="signin">Sign In
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Teacher Login</a>
+        <a href="#">Student Login</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" style="font-size:15px;color:black;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+
+</body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+
+</html>

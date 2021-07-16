@@ -1,0 +1,274 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: 'Karla', sans-serif; */
+}
+
+.heading{
+    margin-top: 50px;
+    /* font-size: 5px; */
+}
+
+h1{
+    font-size: 30px;
+}
+
+.head{
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.heading h1{
+    font-weight: bold;
+}
+
+.heading p{
+    color: #4d4d4d;
+    width: 400px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.headingmore{
+    color:#ea6363;
+}
+
+.signup{
+    margin-top:25px;
+    background-color:#ea6363;
+    color:white;
+    border-radius: 50px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.Academic{
+    height: 100vh;
+}
+
+.carousel1{
+    /* width: 1000px; */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    margin-left: 20px;
+    position: relative;
+    
+}
+
+.carousel-inner1{
+    
+    width: 1000px;
+}
+
+.academicdiv{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.Academic h1{
+    background-color: #0680af;
+    color: white;
+    text-align: center;
+    /* padding-right: 100px; */
+    /* padding-left: 100px; */
+    margin-right: 500px;
+    margin-left: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+
+}
+
+.studentregister .col img{
+    width: 500px;
+}
+
+@media only screen and (max-width: 1030px) {
+    .Academic h1{
+        margin-right:200px;
+        margin-left:200px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .Academic h1{
+        margin-right:200px;
+        margin-left:200px;
+    }
+    .studentregister .col img{
+        width: 350px;
+    }
+
+}
+
+.Academic p{
+    color: #4d4d4d;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.studentregister{
+    margin-top: 100px;
+    height: 60vh;
+}
+
+.schoolregister{
+    height: 60vh;
+}
+
+.studentbutton{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+.studentbutton a{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.schoolbutton{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;   
+}
+
+.schoolbutton a{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.studentregister button{ 
+    background-color:#ea6363;
+    color:white;
+    border-radius: 50px;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 105px;
+    padding-left: 105px;
+    
+}
+
+.schoolregister button{ 
+    background-color:#ea6363;
+    color:white;
+    border-radius: 50px;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 105px;
+    padding-left: 105px;
+    
+}
+.benfits{
+    height: 100vh;
+}
+
+.benefits h1{
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.carousel2{
+    /* width: 1000px; */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    position: relative;
+    /* height: 500px; */
+    
+}
+
+.carousel-inner2{
+    height: 500px;
+    /* width: 500px; */
+}
+
+.prefooter{
+    margin-top: 100px;
+    height: 100vh;
+}
+
+.colabout h1{
+    text-align: left;
+}
+
+.colabout h1{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+}
+.colprofile h1{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.colprofile p{
+    font-weight: 400;
+    width: 600px;
+    /* margin-bottom: 0; */
+}
+
+.colprofile a{
+    text-decoration: none;
+}
+
+.profilep1{
+    margin-top: 50px;
+}
+
+.profileviewall{
+    margin-top: 0;
+    color: blue;
+}
+
+.colabout a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.colabout a:hover{
+    color:#ea6363;
+}
+
+.aboutlinks{
+    margin-top: 50px;
+    width: 300px;
+}
+
+.colabout hr{
+    color: black;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 412px) {
+    html{
+        /* display:inline-block; */
+    }
+    *{
+        box-sizing: content-box;
+    }
+    .head{
+        width: 200px;
+        /* position: relative; */
+        /* text-align: center; */
+    }
+    .container .row .col img{
+        margin-left: 25px;
+        width: 300px;
+    }
+
+}
