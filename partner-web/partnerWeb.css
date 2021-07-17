@@ -88,14 +88,7 @@ h1{
     width: 500px;
 }
 
-@media only screen and (max-width: 1030px) {
-    .Academic h1{
-        margin-right:200px;
-        margin-left:200px;
-    }
-}
-
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1300px) and (min-width: 450px) {
     .Academic h1{
         margin-right:200px;
         margin-left:200px;
@@ -257,6 +250,7 @@ h1{
 @media only screen and (max-width: 412px) {
     html{
         display: flex;
+        overflow-x: hidden;
     }
     *{
         width: 100%;
@@ -265,40 +259,113 @@ h1{
     }
 
     .head h1{
+        font-size: 20px;
+        width: 350px;
+        /* align-items: center!important; */
         text-align: center;
-        width: 600px;
-        margin-left: 50px;
     }
 
     .head p{
-        width: 700px;
-        margin-left: 2px;
         text-align: center;
+        width: 300px;
+        font-size: 10px;
+        margin-left: 22px;
     }
     
     .signup{
-        margin-left: 200px;
+        margin-left: 15px;
     }
 
     .container .col img{
-        width: 500px;
-        margin-left: 98px;
+        width: 300px;
+        margin-left: 25px;
+    }
+
+    .Academic{
+        height: 50vh;
+    }
+
+    .academicdiv{
+        /* margin-left: 5px; */
+        text-align: center;
+        /* margin-left: 80px; */
     }
 
     .academicdiv h1{
-        width: 400px;
-        margin-left: 80px;
+        font-size: 20px;
+        width: 200px;
+        margin-left: 0px;
     }
 
     .academicdiv p{
-        width: 400px;
-        margin-left: 80px;
+        font-size: 10px;
+        width: 200px;
+        margin-left: 0px;
     }
 
     .carousel1{
-        width: 600px;
-        margin-left: 70px;
+        width: 335px;
+        
     }
+
+    .carousel-inner1{
+        width: 300px;
+        
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .carousel-indicators{
+        width: 240px;
+    }
+
+    .studentbutton{
+        margin-left: 25px;
+    }
+    .studentbutton a{
+        width: 50px;
+        font-size: 10px;
+        
+    }
+
+    .schoolbutton{
+        margin-left: 25px;
+    }
+    .schoolbutton a{
+        width: 50px;
+        font-size: 10px;
+        
+    }
+
+    .benefits{
+        height: 50vh;
+    }
+
+    .colabout{
+        /* position: relative; */
+    }
+
+    .colabout h1{
+        width: 300px;
+        margin-bottom: 5px;
+    }
+
+    .aboutlinks{
+        margin-top: 5px;
+    }
+
+    .colprofile{
+        position:absolute;
+        margin-top: 700px;
+    }
+
+    .colprofile p{
+        margin-top: 5px;
+        font-size: 15px;
+        width: 300px;
+    }
+
+
     
 
 }
