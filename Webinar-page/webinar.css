@@ -56,7 +56,7 @@ body{
 
 .cardssection{
     margin: auto;
-    position: absolute;
+    position: relative;
     right: 0;
     left: 0;
     align-items: center;
@@ -86,7 +86,7 @@ body{
     opacity:;
 } */
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 520px) {
     .cardsdiv{
         /* display:flow-root; */
         display: inline;
